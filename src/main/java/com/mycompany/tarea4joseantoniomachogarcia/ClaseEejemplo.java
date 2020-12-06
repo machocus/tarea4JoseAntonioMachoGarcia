@@ -12,5 +12,14 @@ package com.mycompany.tarea4joseantoniomachogarcia;
 public class ClaseEejemplo {
      private String naranjna;
      private String manzana;
+
+    public ClaseEejemplo() {
+    }
+
+    public ClaseEejemplo(String naranjna, String manzana) {
+        this.naranjna = naranjna;
+        this.manzana = manzana;
+    }
     
 }
+
