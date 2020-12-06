@@ -20,6 +20,23 @@ public class ClaseEejemplo {
         this.naranjna = naranjna;
         this.manzana = manzana;
     }
+
+    public String getNaranjna() {
+        return naranjna;
+    }
+
+    public String getManzana() {
+        return manzana;
+    }
+
+    public void setNaranjna(String naranjna) {
+        this.naranjna = naranjna;
+    }
+
+    public void setManzana(String manzana) {
+        this.manzana = manzana;
+    }
+    
     
 }
 
