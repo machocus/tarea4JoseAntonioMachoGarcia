@@ -36,6 +36,11 @@ public class ClaseEejemplo {
     public void setManzana(String manzana) {
         this.manzana = manzana;
     }
+
+    @Override
+    public String toString() {
+        return "ClaseEejemplo{" + "naranjna=" + naranjna + ", manzana=" + manzana + '}';
+    }
     
     
 }
