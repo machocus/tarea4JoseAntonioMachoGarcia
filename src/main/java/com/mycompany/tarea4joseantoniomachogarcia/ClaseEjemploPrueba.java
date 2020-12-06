@@ -13,5 +13,8 @@ public class ClaseEjemploPrueba {
     
     public static void main(String[] args) {
         
+        ClaseEejemplo objeto1 = new ClaseEejemplo();
+        
+        System.out.println(objeto1);
     }
 }
